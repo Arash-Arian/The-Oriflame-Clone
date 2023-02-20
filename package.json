@@ -1,0 +1,19 @@
+{
+  "name": "the-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ -r && node-sass -w scss/media/xl.scss -o css/media/xl.css -r && node-sass -w scss/media/lg.scss -o css/media/lg.css -r && node-sass -w scss/media/md.scss -o css/media/md.css -r && node-sass -w scss/media/sm.scss -o css/media/sm.css -r && node-sass -w scss/media/xs.scss -o css/media/xs.css -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "font-awesome": "^4.7.0",
+    "live-server": "^1.2.2",
+    "node-sass": "^8.0.0",
+    "swiper": "^8.4.5"
+  }
+}
